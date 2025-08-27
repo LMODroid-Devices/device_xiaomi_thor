@@ -39,6 +39,7 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libmialgoengine.so',
     ): blob_fixup().add_needed('libprocessgroup_shim.so'),
     (
+        'vendor/lib64/libMiVideoFilter.so',
         'vendor/lib64/libTrueSight.so',
         'vendor/lib64/libarcsoft_beautyshot.so',
     ): blob_fixup()
