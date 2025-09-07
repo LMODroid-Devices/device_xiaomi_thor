@@ -8,9 +8,9 @@
 $(call inherit-product, device/xiaomi/thor/device.mk)
 
 # Inherit from common lineage configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_thor
+PRODUCT_NAME := lmodroid_thor
 PRODUCT_DEVICE := thor
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
